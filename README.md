@@ -26,7 +26,7 @@
 ##Installation
 
 Install all the package 
-'''shell
+'''
 yarn
 '''
 ##Configuration
