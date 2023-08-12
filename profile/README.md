@@ -27,9 +27,9 @@ Finally, in the following example, the winner receives an attestation from **[EA
 
 ### Some examples :
 
-- 🔴 [OP BridgeLottery Exemple](https://github.com/BridgeLottery/OPbridge_exemple)
-- 🔵 [Base BridgeLottery Exemple](https://github.com/BridgeLottery/BASEbridge_exemple)
-- 🟢 [Mode BridgeLottery Exemple](https://github.com/BridgeLottery/MODEbridge_exemple)
+- 🔴 [OP BridgeLottery Example](https://github.com/BridgeLottery/OPbridge_exemple)
+- 🟢 [Mode BridgeLottery Example](https://github.com/BridgeLottery/MODEbridge_exemple)
+- 🔵 [Base BridgeLottery Example](https://github.com/BridgeLottery/BASEbridge_exemple)
 
 ## 🖥️ Installation Guide
 
@@ -55,6 +55,7 @@ Finally, in the following example, the winner receives an attestation from **[EA
 
 - ```web3Key``` => The key of your RPC using websocket below
 - ```web3Socket``` => Your RPC using websocket
+- ```contractBytecode``` =>
 - ```depositorContractAddress``` => The contract address of [depositor.sol](https://github.com/BridgeLottery/contracts) that you have deployed
 - ```randomNumberContractAddress``` => The contract address of [randomNumber.sol](https://github.com/BridgeLottery/contracts) that you have deployed
 - ```fromAddress``` => Your account address that you will use to send tx from the script
@@ -62,9 +63,18 @@ Finally, in the following example, the winner receives an attestation from **[EA
 - ```yourEndpointUrl``` => Your RPC using https
 - ```yourEndpointKey``` => The key of your RPC using https above
 - ```easContractAddress``` => The **[EAS](https://attest.sh/)** contract address
-- ```gasEstimationKey``` => The key of your gas estimation service below
-- ```gasEstimationUrl``` => Your gas estimation service using https
 - ```schemaUID``` => The schema UID of your **[EAS](https://attest.sh/)** attestations
+- ```eventAddress``` => The address of the bridge that you want to listen txs
+- ```gasLimitModifier``` => Adjust as needed
+- ```gasPriceModifier``` => Adjust as needed
+- ```gasLimitModifier2``` => Adjust as needed
+- ```gasPriceModifier2``` => Adjust as needed
+- ```gasLimitModifier3``` => Adjust as needed
+- ```gasPricetModifier3``` => Adjust as needed
+- ```gasLimitModifier4``` => Adjust as needed
+- ```gasPriceModifier4``` => Adjust as needed
+- ```collection``` => Contract address of your Zora NFTs Collection to reward users
+- ```collectionProvider``` => RPC of the chain of your Zora NFTs Collection
 
 ### 6/ Run the script :
 
