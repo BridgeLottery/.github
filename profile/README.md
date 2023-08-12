@@ -17,7 +17,7 @@
 
 **BridgeLottery** is an open-source project that allows bridge owners to implement a lottery in just a few minutes.
 
-### How it work?
+### How it works?
 
 Firstly, the **Bridgelottery** [script](https://github.com/BridgeLottery/script) listens for transactions on the bridge defined in the config.json file as the ```eventAddress``` for the time defined in the ```subscriptionDurationInSeconds``` variable. A smart contract called [depositor.sol](https://github.com/BridgeLottery/contracts) is deployed in parallel and each address of users who have used the bridge are mapped inside.
 
