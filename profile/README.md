@@ -27,8 +27,8 @@ Finally, in the following example, the winner receives an attestation from **[EA
 
 ### Some examples :
 
-- 🔴 [OP BridgeLottery Example](https://github.com/BridgeLottery/OPbridge_exemple)
-- 🟢 [Mode BridgeLottery Example](https://github.com/BridgeLottery/MODEbridge_exemple)
+- 🔴 [OP BridgeLottery Example](https://github.com/BridgeLottery/OPbridge_example)
+- 🟢 [Mode BridgeLottery Example](https://github.com/BridgeLottery/MODEbridge_example)
 
 ## 🖥️ Installation Guide
 
